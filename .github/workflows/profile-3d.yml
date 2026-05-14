@@ -1,30 +1,55 @@
-name: Generate 3D Contribution Graph
+name: Generate GitHub 3D Contribution Graph
 
 on:
   schedule:
+    # Runs every day at 12:00 AM UTC
     - cron: "0 0 * * *"
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
-    name: Generate contribution graph
+    name: Generate Contribution Snake & 3D Graph
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      # 📥 Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
+      # 🟢 Generate 3D Contribution Graph
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: satyam-ku
+          USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit & Push
+      # 🐍 Generate Contribution Snake
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 📂 Move Snake Files
+      - name: Move Snake Files
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          mkdir -p output
+          cp dist/*.svg output/
+
+      # 💾 Commit & Push Generated Files
+      - name: Commit & Push Files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add .
-          git commit -m "generated 3d graph"
+
+          git diff --cached --quiet || git commit -m "updated github contribution assets"
+
           git push
