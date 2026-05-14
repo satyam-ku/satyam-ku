@@ -1,4 +1,4 @@
-![BannerGIF](banner.png)
+![Banner](./banner.png)
 
 <h1 align="center">Hey, I'm Satyam Kumar 👋</h1>
 
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/satyam-ku">
+  <a href="https://linkedin.com/in/satyamku">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
 
@@ -50,58 +50,43 @@
 
 ## 🚀 Programming Languages
 
-![C](https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,javascript" />
+</p>
 
 ---
 
 ## 🌐 Web Development
 
-![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,nodejs,mongodb" />
+</p>
 
 ---
 
 ## 📊 Data Analytics & AI
 
-![Power BI](https://img.shields.io/badge/PowerBI-yellow?style=for-the-badge&logo=powerbi)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-black?style=for-the-badge)
-![EDA](https://img.shields.io/badge/EDA-green?style=for-the-badge)
-![Scikit Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge" />
+</p>
 
 ---
 
 ## ⚙️ Tools & Technologies
 
-![Git](https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-blue?style=for-the-badge&logo=visual-studio-code)
-
----
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode" />
+</p>
 
 # 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=satyam-ku&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=satyam-ku&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyam-ku&theme=tokyonight&hide_border=true&layout=compact" height="170"/>
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=satyam-ku&theme=tokyonight&row=1&column=6" />
+  <img 
+    src="https://raw.githubusercontent.com/satyam-ku/satyam-ku/main/profile-3d-contrib/profile-night-rainbow.svg"
+    width="80%"
+  />
 </p>
 
 ---
@@ -109,10 +94,53 @@
 # 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/satyam-ku/satyam-ku/output/github-contribution-grid-snake.svg" />
+  <img 
+    src="https://raw.githubusercontent.com/satyam-ku/satyam-ku/main/output/github-contribution-grid-snake-dark.svg"
+    width="100%"
+  />
 </p>
 
----
+
+
+<table align="center">
+<tr>
+<td>
+
+<img 
+  src="https://streak-stats.demolab.com?user=satyam-ku&theme=tokyonight&hide_border=true"
+  height="320"
+/>
+
+</td>
+
+<td>
+
+<img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=satyam-ku&theme=tokyonight"
+  height="150"
+/>
+
+<br/>
+
+<img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=satyam-ku&theme=tokyonight"
+  height="150"
+/>
+
+</td>
+</tr>
+</table>
+
+
+# 🏆 GitHub Trophies
+
+
+<p align="center">
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=satyam-ku&theme=tokyonight&row=1&column=6"
+  />
+</p>
+
 
 # ⚡ Fun Fact
 
