@@ -1,4 +1,4 @@
-![Banner](./banner.png)
+
 
 <h1 align="center">Hey, I'm Satyam Kumar 👋</h1>
 
